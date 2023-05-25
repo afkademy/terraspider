@@ -13,43 +13,43 @@ TerraSpider is a set of terraform configuration files that helps to setup an `AW
 Clone the current repository by running
 
 ```ngular2html
-$ git clone https://github.com/afkademy/terraspider.git </code>
+git clone https://github.com/afkademy/terraspider.git </code>
 ```
 Change your current directory.
 
 ```ngular2html
-$ cd terraspider
+cd terraspider
 ```
 
 Initialize terraform. 
 
 ```ngular2html
-$ terraform init
+terraform init
 ```
 If you do not have terraform installed, follow the [installation guide](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
 
 To check the terraform config files, run:
 ```ngular2html
-$ terraform validate
+terraform validate
 ```
 
 You can also run the following command if you want to check the plan:
 ```ngular2html
-$ terraform plan
+terraform plan
 ```
 
 Finally to create your insfrastructure on [aws](https://aws.amazonaws.com) run:
 ```ngular2html
-$ terraform apply -var-file=vars/dev.tfvars
+terraform apply -var-file=vars/dev.tfvars
 ```
 
 ## Setting Variables
 
 To change your infrastructure variables, open the file located in:
-```ngular2html
-vars/dev.tfvars
-```
+
+> vars/dev.tfvars
+
 and make the changes as desired.
 
 
@@ -57,7 +57,7 @@ and make the changes as desired.
 
 To destroy the infrastructure, run the command:
 ```ngular2html
-$ terraform destroy
+terraform destroy
 ```
 
 ## Acknowledgements
