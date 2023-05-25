@@ -13,7 +13,7 @@ TerraSpider is a set of terraform configuration files that helps to setup an `AW
 Clone the current repository by running
 
 ```ngular2html
-git clone https://github.com/afkademy/terraspider.git </code>
+git clone https://github.com/afkademy/terraspider.git
 ```
 Change your current directory.
 
